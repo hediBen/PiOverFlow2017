@@ -11,5 +11,7 @@ public interface TodoServiceLocal {
 	
 	void create(Todo todo);
 	List<Todo> findAll();
+	
+	void m () ;
 
 }

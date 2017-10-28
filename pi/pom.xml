@@ -85,5 +85,6 @@
     <module>pi-ejb</module>
     <module>pi-web</module>
     <module>pi-ear</module>
+    <module>pi-client</module>
   </modules>
 </project>

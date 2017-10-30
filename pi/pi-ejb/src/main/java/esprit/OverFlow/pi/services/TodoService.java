@@ -25,4 +25,9 @@ public class TodoService implements TodoServiceRemote, TodoServiceLocal {
 		return em.createQuery("from Todo", Todo.class).getResultList();
 	}
 
+    @Override
+    public void m() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }
